@@ -8,8 +8,8 @@ function ShowVideo({ vid }) {
     <>
       <Link to={`/videopage/${vid?._id}`}>
         <video
-          // src={`http://localhost:5500/${vid.filePath}`}
-          src={`https://youtube-clone-0f7n.onrender.com/${vid.filePath}`}
+          src={`http://localhost:5500/${vid.filePath}`}
+          // src={`https://youtube-clone-0f7n.onrender.com/${vid.filePath}`}
           className="video_ShowVideo"
         />
       </Link>
